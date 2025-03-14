@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RewardAlts</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="main.js"></script>
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3086363865137337"
+        crossorigin="anonymous"></script>
+
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" 
+        data-cf-beacon='{"token": "098be24bcced4c258c068f23f7fa8ff9"}'></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/pjGCFQKF/IMG-8716.jpg" alt="RewardAlts Logo">
+        </div>
+        <button class="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+    </header>
+
+    <!-- Slide-in Navigation Menu -->
+    <nav class="nav-menu">
+        <button class="close-menu" onclick="toggleMenu()">✖</button>
+        <ul>
+            <li><a href="#" onclick="showMinecraft()">Minecraft</a></li>
+            <li><a href="#" onclick="showCrunchyroll()">Crunchyroll</a></li>
+            <li><a href="support.html" onclick="showSupport()">Support</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="https://discord.gg/F7cZKteCAC" target="_blank">Discord</a></li>
+        </ul>
+    </nav>
+
+    <!-- Google AdSense Banner Ad -->
+    <div class="ad-banner">
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-3086363865137337"
+            data-ad-slot="YOUR_AD_SLOT"
+            data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </div>
+
+    <!-- Minecraft Generator (Default) -->
+    <section id="minecraft-generator" class="generator active">
+        <h1><span class="highlight">Minecraft</span> Account Generator</h1>
+        <button class="cta" onclick="redirectToRandomLink()">Generate Minecraft Account</button>
+    </section>
+
+    <!-- Crunchyroll Generator (Hidden by Default) -->
+    <section id="crunchyroll-generator" class="generator">
+        <h1><span class="highlight">Crunchyroll</span> Account Generator</h1>
+        <button class="cta crunchyroll" onclick="redirectToCrunchyrollLink()">Generate Crunchyroll Account</button>
+    </section>
+
+    <!-- Support Page (Hidden by Default) -->
+    <section id="support" class="generator">
+        <h1>Support</h1>
+        <p>For any issues, contact us at:</p>
+        <p><strong>Email:</strong> <a href="mailto:grow9341@gmail.com">grow9341@gmail.com</a></p>
+    </section>
+
+    <!-- Google AdSense Ad at Bottom -->
+    <footer class="ad-footer">
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-3086363865137337"
+            data-ad-slot="YOUR_AD_SLOT"
+            data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </footer>
+</body>
+</html>
